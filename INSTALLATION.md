@@ -8,22 +8,33 @@
 
 ## Installation Methods
 
-### Method 1: Unity Package Manager (Recommended)
+### Method 1: Install from Git URL (Recommended)
 
 1. Open your Unity project
 2. Open the Package Manager: `Window > Package Manager`
 3. Click the `+` button in the top-left corner
-4. Select `Add package from disk...`
-5. Navigate to `unity-sdk` folder and select `package.json`
-6. Click `Open`
+4. Select `Add package from git URL...`
+5. Enter: `https://github.com/Lunaractive/unity-sdk.git?path=/NullStack`
+6. Click `Add`
 
-Unity will automatically import the NullStack SDK.
+Unity will download and install the NullStack SDK automatically.
 
-### Method 2: Manual Installation
+### Method 2: Unity Package Manager (Local)
 
-1. Copy the entire `unity-sdk/NullStack` folder
-2. Paste it into your Unity project's `Assets` folder
-3. Unity will automatically compile the scripts
+1. Download or clone this repository
+2. Open your Unity project
+3. Open the Package Manager: `Window > Package Manager`
+4. Click the `+` button in the top-left corner
+5. Select `Add package from disk...`
+6. Navigate to the downloaded `NullStack` folder and select `package.json`
+7. Click `Open`
+
+### Method 3: Manual Installation
+
+1. Download or clone this repository
+2. Copy the entire `NullStack` folder
+3. Paste it into your Unity project's `Assets` folder
+4. Unity will automatically compile the scripts
 
 ## Configuration
 
