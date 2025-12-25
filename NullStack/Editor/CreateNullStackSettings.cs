@@ -26,29 +26,12 @@ namespace NullStack.Editor
             Selection.activeObject = asset;
 
             Debug.Log($"[NullStack] Settings asset created at: {assetPath}");
-            EditorUtility.DisplayDialog(
-                "NullStack Settings Created",
-                $"Settings file created at:\n{assetPath}\n\nPlease configure your Base URL, Title ID, and Secret Key.",
-                "OK"
-            );
         }
 
         [MenuItem("NullStack/Create Settings Asset")]
         public static void CreateSettingsFromMenu()
         {
             CreateSettings();
-        }
-
-        [MenuItem("NullStack/Documentation")]
-        public static void OpenDocumentation()
-        {
-            Application.OpenURL("https://github.com/Lunaractive/unity-sdk");
-        }
-
-        [MenuItem("NullStack/Report Issue")]
-        public static void ReportIssue()
-        {
-            Application.OpenURL("https://github.com/Lunaractive/unity-sdk/issues");
         }
     }
 }
