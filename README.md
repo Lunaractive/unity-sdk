@@ -19,14 +19,21 @@ Complete Unity SDK for NullStack - The open-source backend services platform for
 
 ### 1. Create NullStack Settings
 
-1. In Unity, right-click in the Project window
-2. Select `Create > NullStack > Settings`
-3. Name it `NullStackSettings` and save it in `Assets/Resources/`
-4. Configure your settings:
-   - **Base URL**: Your NullStack server URL (e.g., `http://localhost:3001`)
-   - **Title ID**: Your game's title ID from the Developer Portal
-   - **Secret Key**: Your title's secret key (keep this secure!)
-   - **Enable Logging**: Check for debug logs during development
+**Option 1: Using Menu (Recommended)**
+1. In Unity, go to `NullStack > Create Settings Asset`
+2. Settings file will be created in `Assets/Resources/NullStackSettings`
+
+**Option 2: Context Menu**
+1. Right-click in Project window → `Create > NullStack > Settings`
+2. Name it `NullStackSettings` and save in `Assets/Resources/`
+
+**Configure Settings:**
+- **Base URL**: Your NullStack server URL (e.g., `http://localhost:3001`)
+- **Title ID**: Your game's title ID from the Developer Portal
+- **Secret Key**: Your title's secret key (keep this secure!)
+- **Enable Logging**: Check for debug logs during development
+
+**Tip:** Use `NullStack > Settings Asset` menu to quickly open your settings
 
 ### 2. Basic Authentication
 
