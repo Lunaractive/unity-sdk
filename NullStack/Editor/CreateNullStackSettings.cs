@@ -9,7 +9,7 @@ namespace NullStack.Editor
         [MenuItem("Assets/Create/NullStack/Settings")]
         public static void CreateSettings()
         {
-            NullStackSettings asset = ScriptableObject.CreateInstance<NullStackSettings>();
+            global::NullStack.NullStackSettings asset = ScriptableObject.CreateInstance<global::NullStack.NullStackSettings>();
 
             string path = "Assets/Resources";
             if (!Directory.Exists(path))

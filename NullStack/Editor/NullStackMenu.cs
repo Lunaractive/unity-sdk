@@ -8,7 +8,7 @@ namespace NullStack.Editor
         [MenuItem("NullStack/Settings Asset", priority = 1)]
         public static void OpenSettings()
         {
-            var settings = Resources.Load<NullStackSettings>("NullStackSettings");
+            var settings = Resources.Load<global::NullStack.NullStackSettings>("NullStackSettings");
 
             if (settings == null)
             {
