@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEditor;
 using System.IO;
+using NullStack;
 
 namespace NullStack.Editor
 {
@@ -9,7 +10,7 @@ namespace NullStack.Editor
         [MenuItem("Assets/Create/NullStack/Settings")]
         public static void CreateSettings()
         {
-            global::NullStack.NullStackSettings asset = ScriptableObject.CreateInstance<global::NullStack.NullStackSettings>();
+            NullStackSettings asset = ScriptableObject.CreateInstance<NullStackSettings>();
 
             string path = "Assets/Resources";
             if (!Directory.Exists(path))
