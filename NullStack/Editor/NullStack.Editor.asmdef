@@ -2,7 +2,7 @@
     "name": "NullStack.Editor",
     "rootNamespace": "NullStack.Editor",
     "references": [
-        "GUID:2c8b8e0e5e8c44a4b9e5e5f5e5e5e5e5"
+        "NullStack.Runtime"
     ],
     "includePlatforms": [
         "Editor"
